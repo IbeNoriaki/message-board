@@ -18,19 +18,6 @@
 <%= render 'form' %>
 
 
-<%= form_for(@message) do |f| %>
-<div class="form-group">
-  名前:
-  <%= f.text_area :name, :size => "100%" %>
-</div>
-<div class="form-group">
-  内容:
-  <%= f.text_area :body, :size => "100%" %>
-</div>
-<div class="form-group">
-  <%= f.submit class: "btn btn-sm btn-primary" %>
-</div>
-<% end %>
 
 
 
